@@ -77,7 +77,9 @@ Total Balance: ₹250000.0
 
 Richest Account: ACC004 (₹100000.0)
 
+
 =========================================
+
 NOTIFICATION to USER001:
 
 Deposit of ₹10000 successful!
