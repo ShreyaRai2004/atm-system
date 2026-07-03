@@ -68,15 +68,20 @@ GET /atm/admin/stats                            - Bank Statistics
 GET /atm/health                                 - Health Check
 
 Sample Output
--------------
+
 ===== BANK STATISTICS ===== 
+
 Total Accounts: 4
+
 Total Balance: ₹250000.0
+
 Richest Account: ACC004 (₹100000.0)
 
 =========================================
 NOTIFICATION to USER001:
+
 Deposit of ₹10000 successful!
+
 Time: 2026-07-03T22:30:00
 =========================================
 
@@ -88,6 +93,3 @@ Future Enhancements
 - PDF Statement Generation
 - Docker Containerization
 
-License
--------
-MIT
