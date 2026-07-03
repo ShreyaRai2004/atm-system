@@ -55,17 +55,17 @@ mvn spring-boot:run
 
 API Endpoints
 -------------
-POST   /atm/login                             - User Login
-GET    /atm/balance/{accountNumber}           - Check Balance
-POST   /atm/deposit                           - Deposit Money
-POST   /atm/withdraw                          - Withdraw Money
-POST   /atm/transfer                          - Transfer Funds
-PUT    /atm/change-pin                        - Change PIN
-GET    /atm/history/{accountNumber}           - Transaction History
-GET    /atm/loan/{userId}                     - Loan Eligibility
-GET    /atm/admin/accounts                    - All Accounts
-GET    /atm/admin/stats                       - Bank Statistics
-GET    /atm/health                            - Health Check
+POST /atm/login                                 - User Login
+GET /atm/balance/{accountNumber}                - Check Balance
+POST /atm/deposit                               - Deposit Money
+POST /atm/withdraw                              - Withdraw Money
+POST /atm/transfer                              - Transfer Funds
+PUT /atm/change-pin                             - Change PIN
+GET /atm/history/{accountNumber}                - Transaction History
+GET /atm/loan/{userId}                          - Loan Eligibility
+GET /atm/admin/accounts                         - All Accounts
+GET /atm/admin/stats                            - Bank Statistics
+GET /atm/health                                 - Health Check
 
 Sample Output
 -------------
@@ -88,5 +88,6 @@ Future Enhancements
 - PDF Statement Generation
 - Docker Containerization
 
+License
 -------
 MIT
