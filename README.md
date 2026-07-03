@@ -46,8 +46,11 @@ USER003 | 1111 | ACC004 | ₹100,000
 Installation
 ------------
 git clone https://github.com/YOUR_USERNAME/atm-system.git
+
 cd atm-system
+
 mvn clean compile
+
 mvn spring-boot:run
 
 API Endpoints
@@ -85,7 +88,5 @@ Future Enhancements
 - PDF Statement Generation
 - Docker Containerization
 
-
-License
 -------
 MIT
